@@ -1,0 +1,14 @@
+<div>
+  <div class="card-container">
+
+    <div *ngFor="let item of Posts">
+      <app-post-item [post]="item">
+      </app-post-item>
+    </div>
+
+
+    <!-- <a class="card">
+      <span>{{ Posts | json }}</span>
+    </a> -->
+  </div>
+</div>
